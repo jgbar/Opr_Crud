@@ -1,0 +1,74 @@
+label {
+  color: #777777;
+  margin: 0px;
+  display: inline-block;
+
+}
+
+input[type=text], input[type=number],input[type=checkbox],input[type=password] {   
+    padding: 5px 10px;
+    margin: 5px 0;
+    border:0;
+    box-shadow:0 0 2px 2px rgba(1, 1, 1, 0.2);
+ }
+
+input[type=checkbox]
+{
+  box-shadow: none;   
+}
+
+input[type=number]
+{
+  width: 50px;
+}
+input[type=submit] {
+  padding:5px;
+  margin-top: 5px;
+} 
+
+input:not(:focus):not(:placeholder-shown):invalid {
+  border: red solid 1px;
+  }
+
+tr:hover {
+  background-color: rgb(209, 219, 234);
+  }
+
+.styledbutton {
+    border: 0;
+    line-height: 1.5;
+    width: 150px;
+    margin: 8px;
+    padding: 0 15px;
+    font-size: 0.9rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 5px;
+    background-color: rgb(63, 94, 140);
+   
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6), inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+}
+
+.styledbutton:hover{
+  background-color: rgb(73, 72, 72);
+}
+
+.validation {
+  width: 50%;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 0.85rem;
+  border: 1px solid;
+  margin: 7px 0px;
+  padding: 8px 4px 8px 15px;
+  background-repeat: no-repeat;
+  background-position: 10px center;
+  color: #ce522d;
+	background-color: #FFCCBA;
+}
+
+.loggedintext { 
+  color: darkcyan;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 0.85rem;
+}
